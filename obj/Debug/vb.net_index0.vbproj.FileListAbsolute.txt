@@ -1,0 +1,13 @@
+D:\Visual Basic Applications\vb.net_index0\bin\Debug\vb.net_index0.exe.config
+D:\Visual Basic Applications\vb.net_index0\bin\Debug\vb.net_index0.exe
+D:\Visual Basic Applications\vb.net_index0\bin\Debug\vb.net_index0.pdb
+D:\Visual Basic Applications\vb.net_index0\bin\Debug\vb.net_index0.xml
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.vbproj.AssemblyReference.cache
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.vbproj.SuggestedBindingRedirects.cache
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.Form1.resources
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.Resources.resources
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.vbproj.GenerateResource.cache
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.vbproj.CoreCompileInputs.cache
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.exe
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.xml
+D:\Visual Basic Applications\vb.net_index0\obj\Debug\vb.net_index0.pdb
