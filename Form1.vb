@@ -445,26 +445,32 @@
 
         MsgBox("Row: " & astData.GetLength(0) - 1 & vbNewLine & "Column: " & astData.GetLength(1) - 1)
 
-        stSearch = InputBox("Search for a person:")
+        stSearch = InputBox("Search for a person by surname:")
         If stSearch.Length = 0 Then
-            stSearch = InputBox("Search for a person:")
+            stSearch = InputBox("Search for a person by surname:")
         Else
             For iRowCounter = 0 To astData.GetLength(0) - 1
-                For iColumnCounter = 0 To astData.GetLength(1) - 1
-                    If astData(iRowCounter, iColumnCounter).ToUpper = stSearch.ToUpper Then
-                        bFound = True
-                        Exit For
-                    End If
-                Next
-                iColumnCounter = 0
+                If astData(iRowCounter, 1).ToUpper = stSearch.ToUpper Then
+                    bFound = True
+
+                    ' Build the person's information string
+                    For iColumnCounter = 0 To astData.GetLength(1) - 1
+                        If astData(iRowCounter, iColumnCounter) <> astData(iRowCounter, astData.GetLength(1) - 1) Then
+                            stPersonInfo &= astData(iRowCounter, iColumnCounter) & ", "
+                        Else
+                            stPersonInfo &= astData(iRowCounter, iColumnCounter)
+                        End If
+                    Next
+
+                    Exit For
+                End If
             Next
 
             If bFound = True Then
-                MsgBox("Person found.")
+                MsgBox(stPersonInfo)
             Else
                 MsgBox("Person not found.")
             End If
         End If
-
     End Sub
 End Class
